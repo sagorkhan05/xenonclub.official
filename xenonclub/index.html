@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XenonClub Official Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="nav">
+        <div class="logo">
+            <!-- 🔻 Replace this logo.png with your own -->
+            <img src="image/logo.png" alt="Team Logo" class="site-logo">
+            <div><b>XenonClub</b></div>
+        </div>
+
+        <div class="menu-toggle" id="menuToggle">☰</div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#hero">Home</a>
+            <a href="#team">Team</a>
+            <a href="#schedule">Schedule</a>
+            <button class="toggle-theme" id="themeToggle">Light Mode</button>
+            <button class="cta-btn">Join</button>
+        </nav>
+    </header>
+
+    <div class="wrap">
+
+        <!-- Hero Section -->
+        <section class="hero fade-in" id="hero">
+            <div class="hero-text">
+                <h1>Our faith is one. We will Fight</h1>
+                <p>XenonClub is an esports team competing in FF tournaments with unmatched skill and teamwork.
+                </p>
+                <div class="actions">
+                    <button class="cta-btn">Watch Live</button>
+                    <button class="toggle-theme" id="scrollTeam">Meet Team</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="image/IMG_20251023_123135.jpg"
+                    alt="Esports Arena">
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="section fade-in">
+            <h2>Team Roster</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="player">
+                        <img src="image/sagor.jpg" alt="Player 1"
+                            class="avatar">
+                        <div>
+                            <h4>XC SAGOR</h4>
+                            <p>Captain</p>
+                            <span class="tag">Rifler</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="player">
+                        <img src="image/fahim.jpg" alt="Player 2"
+                            class="avatar">
+                        <div>
+                            <h4>XC FAHIM</h4>
+                            <p>Sniper</p>
+                            <span class="tag">Sharpshooter</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="player">
+                        <img src="image/abir.jpg" alt="Player 3"
+                            class="avatar">
+                        <div>
+                            <h4>XC ABIR</h4>
+                            <p>Support</p>
+                            <span class="tag">Tactician</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section id="schedule" class="section fade-in">
+            <h2>Upcoming Matches</h2>
+            <table class="matches">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Opponent</th>
+                        <th>Event</th>
+                        <th>Time (UTC)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Oct 29, 2025</td>
+                        <td class="match-win">Crimson Legion</td>
+                        <td>Qualifier</td>
+                        <td>13:00</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 03, 2025</td>
+                        <td>Volt Gaming</td>
+                        <td>Friendly</td>
+                        <td>17:30</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 11, 2025</td>
+                        <td>Nightfall</td>
+                        <td>Regional Cup</td>
+                        <td>20:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer>© 2025 XenonClub Official — All Rights Reserved.</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
